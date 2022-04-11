@@ -61,6 +61,5 @@ namespace OtripleS.Web.Api.Services.Foundations.UserContacts
 
             return await this.storageBroker.DeleteUserContactAsync(mayBeUserContact);
         });
-
     }
 }
